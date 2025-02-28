@@ -3,41 +3,64 @@ import Nav from "../layouts/Nav";
 
 function Exp() {
   return (
-    <>
+    <div className="container">
       <Nav />
-      <h1>Experience Page</h1>
+      <h1 style={{ display: "flex", justifyContent: "center" }}>
+        My Education
+      </h1>
       <div>
-        <div>
+        <div style={{ display: "flex", gap: "1rem" }}>
           <div className="">
-            <h2 className="">Redian Softwares</h2>
+            <h2
+              style={{
+                border: "3px solid black",
+                display: "inline-block",
+                padding: "1rem",
+              }}
+            >
+              2020 - 2024
+            </h2>
+            <h2 className="">Teach2give</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae unde, saepe officiis numquam voluptatibus similique
-              quos est nostrum nulla nisi dolor animi. Asperiores illo iste
-              necessitatibus nostrum laboriosam fugit incidunt?
+              I pursued a degree in{" "}
+              <span style={{ color: "#666", fontWeight: "bold" }}>
+                Computer Science
+              </span>{" "}
+              at Laikipia University, where I developed a strong foundation in
+              software development, algorithms, data structures, and system
+              architecture. Throughout my studies, I gained hands-on experience
+              in programming languages such as Java, Python, and C++, while also
+              exploring areas like artificial intelligence, databases, and
+              cybersecurity. 
             </p>
           </div>
-          <div>
-            <h2>Teach2give</h2>
+          <div className="">
+            <h2
+              style={{
+                border: "3px solid black",
+                display: "inline-block",
+                padding: "1rem",
+              }}
+            >
+              2020 - 2024
+            </h2>
+            <h2 className="">Laikipia University</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              molestias commodi praesentium animi iste esse aut voluptatibus
-              maxime culpa aliquid libero nisi quo laboriosam odit, vero fugiat
-              modi unde! Esse.
-            </p>
-          </div>
-          <div>
-            <h2>Lixnet Technologies</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et,
-              blanditiis accusantium sequi vel non beatae in minima vitae?
-              Explicabo totam doloremque iste officiis deleniti quos eum porro
-              tempora? Deserunt, quod.
+              I pursued a degree in{" "}
+              <span style={{ color: "#666", fontWeight: "bold" }}>
+                Computer Science
+              </span>{" "}
+              at Laikipia University, where I developed a strong foundation in
+              software development, algorithms, data structures, and system
+              architecture. Throughout my studies, I gained hands-on experience
+              in programming languages such as Java, Python, and C++, while also
+              exploring areas like artificial intelligence, databases, and
+              cybersecurity. 
             </p>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

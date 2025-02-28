@@ -17,7 +17,12 @@ function Nav() {
         <div className="nav-links">
           <li>
             <Link to="/experiance" className="nav-link">
-              Experience
+              Download CV
+            </Link>
+          </li>
+          <li>
+            <Link to="/experiance" className="nav-link">
+              Eductaion
             </Link>
           </li>
           <li>
