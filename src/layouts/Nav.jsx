@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <nav className="">
-      <ul className="">
+      <ul className="flex justify-between items-center">
         {/* Left Side (Logo) */}
         <li>
-          <Link to="/" className="">
+          <Link to="/" className="no-underline text-inherit font-normal">
             Isaac.
           </Link>
         </li>
