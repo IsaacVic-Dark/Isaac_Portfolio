@@ -16,7 +16,16 @@ function Nav() {
         {/* Right Side (Navigation Links) */}
         <div className="nav-links">
           <li>
-            <Link to="/experiance" className="nav-link">
+            <Link
+              to="#"
+              className="nav-link"
+              onClick={() => {
+                const link = document.createElement("a");
+                link.href =
+                  "https://drive.google.com/file/d/1jUCJTeRzvFbLRehUhlY38yFUTknmsx_N/view?usp=sharing";
+                link.click();
+              }}
+            >
               Download CV
             </Link>
           </li>
